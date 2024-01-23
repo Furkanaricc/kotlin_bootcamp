@@ -1,6 +1,6 @@
 package com.example.kotlindersleri.nesne_tabanli_programlama
 
-class Araba (var renk : String, var hiz : Int, var calisiyorMu : Boolean){
+data class Araba (var renk : String, var hiz : Int, var calisiyorMu : Boolean){
 
     init {
         println("-------------Constructor çalıştı.------------")
